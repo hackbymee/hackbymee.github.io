@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/book.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
+
+    <!-- Framework Start -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/assets/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="/assets/fontawesome/css/solid.css" />
+    <link rel="stylesheet" href="/assets/fontawesome/css/brands.css" />
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Framework End -->
+</head>
+<body>
+    <script src="/js/autohide.js"></script>
+
+    <!-- Nav Start -->
+    <nav class="autohide navbar navbar-expand-lg navbar-dark navbar-background shadow-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">HackBymee Library.</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-right" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="/signin/index.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="/signup/index.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#kontak">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#about-us">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav End -->
+
+    <!-- Banner Start-->
+    <div class="container-fluid banner pt-5 pb-4">
+        <div class="container text-center ">
+            <div class="row">
+                <div class="col">
+                    <h4 class="display-3 text-ligh fw-bold pt-5 text-start">Selamat Datang di HackBymee Library</h4>
+                    <hr class="my-4">
+                    <p class="fs-6 text-start"><strong>
+                        "Kutu Buku Akan Memerintah Dunia Ketika Sudah Menyelesaikan Bab Akhir"
+                    </strong>
+
+                    </p>
+                    <p class="fs-5 text-start pt-3">
+                        Perpustakaan HackBymee menjadi salah satu bagian unti kerja dalam setiap program
+                        kerjanya berdasarkan perencanaan. Program kerja tersebut disusun sebagai acuan atau dasar
+                        kerja agar sesuai dengan target kerja.
+                        Perencanaan yang baik diperlukan oleh institusi
+                        dalam membangun sebuah sistem managemen. Tujuan dari perencanaan tersebut agar pelaksananya
+                        dapat menjadi sistematis dan efisien.
+                    </p>
+                </div>
+                <div class="col-md-4 pt-lg-5">
+                    <span class="logoBook">
+                        <i class="animate__animated animate__fadeInRightBig animate__delay-0.1s text-center fas fa-book fa-9x"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="pt-5 text-start">
+                <a href="/perpustakaan/index.html">
+                    <button type="button" class="btn btn-success btn-lg">Mari Membaca</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Card Start -->
+    <div class="container-fluid">
+        <div class="container pt-5 pb-5">
+            <h4 class="pb-4"><strong>Rekomendasi Buku</strong></h4>
+            <div class="row">
+                <div class="col pt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/machine_language.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Machine Language</h5>
+                            <p class="card-text">
+                                Bahasa yang berisi kode-kode mesin yang hanya dapat diinterpretasikan
+                                langsung oleh mesin komputer. Bahasa mesin sering juga disebut native
+                                code (sangat bergantung pada mesin tertentu).
+                            </p>
+                            <a href="">
+                                <button type="button" class="btn btn-success btn-lg">Read More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col pt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/front_end.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Front End Developer</h5>
+                            <p class="card-text">
+                                Front End merupakan salah satu bagian dari website yang
+                                menampilkan tampilan untuk para pengguna. Pada bagian ini
+                                dibuat dengan menggunakan 3 bahasa pemrograman web yaitu
+                                HTML, CSS, JS.
+                            </p>
+                            <a href="#">
+                                <button type="button" class="btn btn-success btn-lg">Read More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col pt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/data_analyst.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Analyst</h5>
+                            <p class="card-text">
+                                Analis data adalah sebuah proses inspeksi, pembersihan dan
+                                pemodelan data dengan tujuan menemukan informasi yang berguna,
+                                menginformasikan kesimpulan dan mendukung pengambilan keputusan.
+                            </p>
+                            <a href="#">
+                                <button type="button" class="btn btn-success btn-lg">Read More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col pt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/python_fundamental.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Fundamental</h5>
+                            <p class="card-text">
+                                Python merupakan bahasa pemrograman yang banyak digunakan dalam
+                                aplikasi web, pengembangan perangkat lunak, ilmu data, dan machine
+                                learning (ML).
+                            </p>
+                            <a href="#">
+                                <button type="button" class="btn btn-success btn-lg">Read More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col pt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/robotics.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">AI Robotics</h5>
+                            <p class="card-text">
+                                Artificial Intelligence (AI) adalah kecerdasan memahami, mensintesis, dan
+                                menyimpulkan informasi yang ditunjukan oleh mesin, berbeda dengan kecerdasan
+                                hewan dan manusia.
+                            </p>
+                            <a href="#">
+                                <button type="button" class="btn btn-success btn-lg">Read More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col pt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/backend.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Back End Developer</h5>
+                            <p class="card-text">
+                                Back End merupakan sisi server atau server side dari sebuah website
+                                atau aplikasi. Jadi, back end developer adalah seorang yang memiliki
+                                keahlian untuk merancang atau mengembangkan software di sisi server
+                                yang berkaitan dengan logika serta database.
+                            </p>
+                            <a href="#">
+                                <button type="button" class="btn btn-success btn-lg">Read More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card End -->
+    
+    <!-- Kontak Start -->
+    <div class="container-fluid pt-5 pb-5 kontak">
+        <div class="container text-light">
+            <h2 class="display-3 pt-5 text-center fw-bold" id="kontak">Contact Us</h2>
+            <p class="text-center">
+                Hubungi kami jika terdapat kesalahan pada website ini
+            </p>
+            
+            <!-- Form Contact Start-->
+            <form action="#" method="POST">
+                <div class="row pt-5 pb-3">
+                    <div class="col-md-6">
+                        <input type="text" placeholder="Nama Lengkap" class="form-control form-control-lg border border-dark">
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-md-6">
+                        <input type="text" placeholder="Email" class="form-control form-control-lg border border-dark">
+                    </div>
+                </div>
+
+                <div class="row pb-3">
+                    <div class="col-md-6">
+                        <input type="text" placeholder="No. Phone" class="form-control form-control-lg mb-4 border border-dark">
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <textarea class="form-control form-control-lg border border-dark" placeholder="Masukan pesan" rows="4"></textarea>
+                </div>
+                <div class="pt-5 text-start">
+                    <button type="button" class="btn btn-success btn-lg">Kirim Pesan</button>
+                </div>
+            </form>
+            <!-- Form Contact End -->
+
+        </div>
+    </div>
+    <!-- Kontak End -->
+
+    <!-- Tentang Kami Start -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+        <div class="container text-center">
+            <h2 class="display-3" id="about-us">Tentang Kami</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore illo officia, harum optio cumque aut. Voluptas tempore eligendi nulla libero.
+            </p>
+            <div class="row pt-4 gx-4 gy-4">
+                <div class="col-md-4 text-center tim">
+                    <img 
+                        src="https://1.bp.blogspot.com/-vJdqyILByDc/YClf0LWdgDI/AAAAAAAAN4w/vEfKYm4W3kwuNjhI5hk-Yp2qidGctOTPACK4BGAYYCw/s113/index.jpeg"
+                        class="rounded-circle">
+                    <h4>Zidan Herlangga</h4>
+                    <p>Developer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tentang Kami End -->
+
+    <!-- Layanan Start -->
+    <!-- <div class="container-fluid layanan pt-5 pb-5">
+        <div class="container text-center">
+            <h2 class="display-3" id="layanan">Layanan Kami</h2>
+            <p>
+                Thank you for calling HackBymee Corp. Iam Admin from HackBymee Corp.
+                I am here to provide you with the very best service for you.
+            </p>
+            <p>
+                Terima kasih telah menghubungi HackBymee Corp. Saya Admin dari HackBymee Corp.
+                Saya akan menyediakan layanan terbaik untuk Anda.
+            </p>
+            <div class="row pt-4">
+
+                <div class="col-md-4">
+                    <span class="lingkaran"><i class="fas fa-code fa-5x"></i></span>
+                    <h3 class="mt-3">Programming</h3>
+                    <p>
+                        Kami menyediakan jasa pembuatan Website dan Aplikasi
+                    </p>
+                </div>
+                
+                <div class="col-md-4">
+                    <span class="lingkaran"><i class="fas fa-palette fa-5x"></i></span>
+                    <h3 class="mt-3">Web Design</h3>
+                    <p>
+                        Kami menyediakan jasa UI/UX web application
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <span class="lingkaran"><i class="fas fa-network-wired fa-5x"></i></span>
+                    <h3 class="mt-3">Networking</h3>
+                    <p>
+                        Kami menyediakan jasa VPN, Hosting, dan Domain
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div> -->
+    <!-- Layanan End -->
+    
+    <!-- Footer Start -->
+    <div class="container-fluid pb-3 footer">
+        <div class="container text-center text-light">
+            <div class="footer">
+                <p>Copyright &copy; 2023. Create by HackBymee</p>
+                <!-- Footer Link -->
+                <a href="#forum">Forum</a>
+                <a href="#disclaimer">Disclaimer</a>
+                <a href="#privacy">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+</html>
