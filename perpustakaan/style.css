@@ -1,0 +1,9 @@
+.index {
+    display: flex;
+    gap: 2px;
+}
+
+.index a{
+    text-decoration: none;
+    color: black;
+}
