@@ -7,3 +7,10 @@
     text-decoration: none;
     color: black;
 }
+
+/* card start */
+.card:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+/* card end */
