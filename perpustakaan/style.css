@@ -8,6 +8,10 @@
     color: black;
 }
 
+.navbar-background {
+    background-color: #416165;
+}
+
 /* card start */
 .card:hover {
     transform: scale(0.9);
