@@ -56,9 +56,14 @@
 }
 
 /* tim */
-.tim {
+/* .tim {
     width: 250px;
     border: 10px solid;
+} */
+
+/* unknowman > tim kami */
+.unknowman {
+    border-radius: 50%;
 }
 
 .footer {
