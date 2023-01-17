@@ -17,7 +17,7 @@
     background-color: #416165;
 }
 
-/* autohide scrool */
+/* autohide scrool start */
 .scrolled-down{
     transform:translateY(-100%); transition: all 0.3s ease-in-out;
 }
@@ -25,8 +25,9 @@
 .scrolled-up{
     transform:translateY(0); transition: all 0.3s ease-in-out;
 }
+/* autohide scroll end */
 
-/* banner home */
+/* banner home start */
 .banner {
     /* background: url("/img/library_banner.jpg")
     no-repeat center center; */
@@ -34,38 +35,37 @@
     padding-top: 20%;
     padding-bottom: 20%;
     color: #fff;
-    
     /* background banner */
     background-color: #0B3948;
 }
+/* banner home end */
 
-/* logo buku */
-/* .logoBook i{
-    padding-top: 110px;
-    margin-left: 150px;
-} */
+/* card start */
+.card:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+/* card end */
 
-
+/* button start */
 .button {
     background-color: #2C5784;
 }
+/* button end */
 
-/* kontak */
+/* kontak start */
 .kontak {
     background-color: #0B3948;
 }
-
-/* tim */
-/* .tim {
-    width: 250px;
-    border: 10px solid;
-} */
+/* kontak end */
 
 /* unknowman > tim kami */
 #unknowman {
     border-radius: 50%;
 }
+/* unknow end */
 
+/* footer start */
 .footer {
     background-color: #416165;
 }
@@ -85,12 +85,4 @@
 .footer a:hover {
     color: #4763FD;
 }
-
-/* Mobile Responsive */
-/* @media screen and (max-width: 600px) {
-    .logoBook {
-        padding-right: 30%;
-        padding-bottom: 70px;
-    }
-} */
-
+/* footer end */
